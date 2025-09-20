@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    float avg,perc;
+    int x,y,a,b,c,sum;
+    scanf("%d%d%d%d%d",&x,&y,&a,&b,&c);
+    sum = x+y+a+b+c;
+    avg = sum/5;
+    perc = (sum/5);
+    printf("%d ",sum);
+    printf("%.2f ",avg); 
+    printf("%.2f ",perc);   
+    return 0;
+}
