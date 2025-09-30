@@ -1,0 +1,31 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    int x,y,z;
+    scanf("%d%d%d",&x,&y,&z);
+    if ((x>y)&(x>z)){
+        printf("%d",x);
+    }
+    else if ((y>x)&(y>z)){
+        printf("%d",y);
+    }
+    else if ((z>y)&(z>x)){
+        printf("%d",z);
+    }
+    else if((x==y)&(x>z)){
+        printf("%d",x);
+    }
+    else if((x==z)&(x>y)){
+        printf("%d",x);
+    }
+    else if((z==y)&(z>x)){
+        printf("%d",z);
+    }
+    else{
+        printf("all number are same");
+    }
+    return 0;
+}
