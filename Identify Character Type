@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+#include <ctype.h>
+int main() {
+    char x;
+    scanf("%c",&x);
+    if (isalpha(x)){
+        printf("Alphabet");
+    }
+    else if (isdigit(x)){
+        printf("Digit");
+    }
+    else{
+        printf("Symbol");
+    }
+    return 0;
+}
