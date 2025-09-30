@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    int x;
+    scanf("%d",&x);
+    if (x==0){
+        printf("Zero");
+    }
+    if (x>0){
+        printf("Positive");
+    }
+    if (x<0){
+        printf("Negative");
+    }
+    return 0;
+}
